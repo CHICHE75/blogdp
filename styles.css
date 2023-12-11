@@ -1,0 +1,34 @@
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInAnimation 1s ease-in-out forwards;
+}
+
+@keyframes slideInAnimation {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+/*
+
+#092635
+
+#1B4242
+
+#5C8374
+
+#9EC8B9
+
+*/
+
+
+
